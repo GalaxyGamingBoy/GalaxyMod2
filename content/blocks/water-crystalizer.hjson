@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Water Crystalizer
+description: Crystalizeses Water. Consumes a lot of power.
+liquidCapacity: 75
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 85
+updateEffect: smeltsmoke
+consumes: {
+  power: 12.5
+  items: {
+    items: [
+      metaglass/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 2
+  }
+}
+requirements: [
+  metaglass/12
+  lead/45
+  copper/20
+  graphite/10
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: crystalized-water/1
