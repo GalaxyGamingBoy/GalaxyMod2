@@ -2,5 +2,5 @@ name: Oxygen
 description: Oxygen, made by the Water Vaporizer.
 temperature: 0.1
 viscosity: 0.25
-effect: steam
+effect: melting
 color: a4a2bd
