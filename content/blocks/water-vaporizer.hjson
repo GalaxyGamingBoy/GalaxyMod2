@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Water Vaporizer"
+description: "It Veporizes Water"
+liquidCapacity: 35
+outputLiquid: {
+  liquid: oxygen
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: blastsmoke
+consumes: {
+  power: 5
+  item: crystalized-water/2
+}
+requirements: [
+  metaglass/12
+  lead/34
+  graphite/12
+  coal/25
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+
+
