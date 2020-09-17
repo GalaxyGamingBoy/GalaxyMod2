@@ -13,7 +13,7 @@ craftTime: 10
 updateEffect: blastsmoke
 consumes: {
   power: 5
-  item: crystalized-water/2
+  item: crystalized-water / 2
 }
 requirements: [
   metaglass/12
