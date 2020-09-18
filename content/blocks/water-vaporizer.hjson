@@ -4,7 +4,7 @@ description: "It Veporizes Water"
 liquidCapacity: 35
 outputLiquid: {
   liquid: oxygen
-  amount: 1
+  amount: 2.5
 }
 size: 2
 hasPower: true

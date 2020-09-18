@@ -12,7 +12,7 @@ consumes: {
   power: 0.55
   liquid: {
     liquid: oxygen
-    amount: 2
+    amount: 0.57
   }
 }
 requirements: [
@@ -26,5 +26,5 @@ idleSound: respawning
 idleSoundVolume: 0.5
 outputLiquid: {
   liquid: Co2
-  amount: 1
+  amount: 4.5
 }
