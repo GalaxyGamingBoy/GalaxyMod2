@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Oxygen Separator
+description: It separates oxygen to Co2 whice can make coal
+liquidCapacity: 80
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 105
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.55
+  liquid: {
+    liquid: oxygen
+    amount: 2
+  }
+}
+requirements: [
+  crystalized-water/10
+  lead/45
+  copper/22
+  graphite/13
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: {
+  liquid: Co2
+  amount: 1
+}

@@ -1,0 +1,6 @@
+name: Co2
+description: Co2, nothing more or less.
+temperature: 0.4
+viscosity: 1
+effect: melting
+color: 977C7C
